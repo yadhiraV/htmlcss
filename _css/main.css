@@ -1,1 +1,72 @@
 /* css */
+body {
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+#page {
+    padding:40px;
+}
+#header {
+    background-color:gray; /* sets the background cololr to gray */
+    padding:0px;
+    color:white;
+}
+
+#header h1{
+    padding:20px 40px;
+    margin:0px;
+    font-family:verdana;
+    font-size:60pt;
+}
+
+/* navigation */
+#nav, #nav a {
+    background-color:#ccc;   /* this changes the background color to #ccc */
+    padding:10px;
+}
+
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;  /* this removes the underline */
+}
+
+#nav a:hover {
+    background-color:#aaaaff;   /* this changes the background color to #aaaaff */
+    color:white;
+    transition: background-color 2s;  /* this provides a control of animation speed when changing */  
+}
+/* end navigation */
+
+#content {
+    padding:20px 40px;
+    background-color:#eee;  /* sets background color to #eee */
+    margin:0px;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+    border-radius:10px 10px;
+}
+#footer {
+    background-color:black;
+    margin:0px;
+    padding:20px;
+    color:white;
+}
+#footer a {
+    text-decoration:none;
+}
+/*
+#header{
+    background-color:gray;
+    width:400px; 
+    padding:20px;
+}
+#header:hover{
+    background-color:lightblue;
+    transition: background-color 2s;
+}
+ */
